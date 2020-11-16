@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/Hiennguyenalice/firstDevOpsProject'
+ git 'https://github.com/Hiennguyenalice/gestion_bancaire_project.git'
 }
 
 stage('Compile'){
